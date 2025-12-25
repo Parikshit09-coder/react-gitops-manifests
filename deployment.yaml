@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: react-frontend
-          image: parikshitdesai388/cicd:11
+          image: parikshitdesai388/cicd:12
           imagePullPolicy: Always
           ports:
             - containerPort: 80
