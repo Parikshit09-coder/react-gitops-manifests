@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: react-frontend
-          image: parikshitdesai388/cicd:1   # Jenkins will update this tag
+          image: parikshitdesai388/cicd:11
           imagePullPolicy: Always
           ports:
             - containerPort: 80
